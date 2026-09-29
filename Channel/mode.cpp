@@ -1,7 +1,7 @@
-# include "Ft_Irc.hpp"
-# include "Server.hpp"
-# include "Client.hpp"
-# include "Utils.hpp"
+# include "../Ft_Irc.hpp"
+# include "../Server.hpp"
+# include "../Client.hpp"
+# include "../Utils.hpp"
 
 void handleMode(Server &server, Client &client, std::vector<std::string> &params)
 {

@@ -1,4 +1,4 @@
-# include "Server.hpp"
+# include "../Server.hpp"
 # include <ctype.h>
 
 Server::Server(std::string name) : _serverName(name) {

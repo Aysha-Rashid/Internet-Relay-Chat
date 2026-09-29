@@ -1,6 +1,15 @@
 NAME = ircserv
 
-SRC = main.cpp Server.cpp Client.cpp Channel.cpp Commands.cpp Utils.cpp nick.cpp join.cpp mode.cpp topic.cpp
+SRC = main.cpp \
+		Server/Server.cpp \
+		Client/Client.cpp \
+		Channel/Channel.cpp \
+		Channel/Commands.cpp \
+		Channel/nick.cpp \
+		Channel/join.cpp \
+		Channel/mode.cpp \
+		Channel/topic.cpp \
+		Utils.cpp
 	 	 
 OBJ = $(SRC:.cpp=.o)
 

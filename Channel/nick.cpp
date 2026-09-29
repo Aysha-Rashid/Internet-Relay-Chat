@@ -1,6 +1,6 @@
-# include "Ft_Irc.hpp"
-# include "Server.hpp"
-# include "Client.hpp"
+# include "../Ft_Irc.hpp"
+# include "../Server.hpp"
+# include "../Client.hpp"
 
 std::vector<Channel*> Server::getChannelsByClient(Client* client) {
 	std::vector<Channel*> result;
