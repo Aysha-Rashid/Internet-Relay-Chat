@@ -326,7 +326,7 @@ Once started, the server listens for incoming TCP connections.
 
 ---
 
-## 🔗 Connecting a Client
+## Connecting a Client
 
 You can connect using an IRC client such as **Irssi**, **WeeChat**, or another IRC-compatible client.
 
