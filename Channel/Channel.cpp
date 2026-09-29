@@ -1,4 +1,4 @@
-# include "../Channel.hpp"
+# include "../Header/Channel.hpp"
 Channel::Channel() :_channelKey(""),_topic("") , _userLimit(0), _inviteOnly(false){}
 
 Channel::Channel(std::string name, std::string password) 

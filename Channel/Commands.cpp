@@ -1,5 +1,5 @@
 
-# include "../Ft_Irc.hpp"
+# include "../Header/Ft_Irc.hpp"
 
 // ✅ Ensure These Are Defined Before Using Them
 void handlePass(Server &server, Client &client, std::vector<std::string>& params)

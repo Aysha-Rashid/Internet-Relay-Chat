@@ -1,5 +1,5 @@
-# include "Ft_Irc.hpp"
-# include "Server.hpp"
+# include "Header/Ft_Irc.hpp"
+# include "Header/Server.hpp"
 bool running = 1;
 static void signal_handler(int signal)
 {
